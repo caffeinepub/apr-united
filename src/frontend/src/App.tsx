@@ -35,6 +35,13 @@ export default function AprUnitedImpactWebsite() {
       stats: ["Location-first search", "Budget filtering", "High-intent leads"],
     },
     {
+      name: "FinAssist AI",
+      tag: "AI-powered finance guidance",
+      description:
+        "Smart financial assistance that helps users navigate decisions, understand options, and take control of their money.",
+      stats: ["Finance clarity", "AI-driven insights", "Built for users"],
+    },
+    {
       name: "APR Labs",
       tag: "Ideas into products",
       description:
@@ -59,7 +66,7 @@ export default function AprUnitedImpactWebsite() {
   ];
 
   const metrics = [
-    { value: "03", label: "Ventures in motion" },
+    { value: "04", label: "Ventures in motion" },
     { value: "10x", label: "Bigger brand ambition" },
     { value: "24/7", label: "Digital-first mindset" },
     { value: "01", label: "Unified vision" },
@@ -289,16 +296,31 @@ export default function AprUnitedImpactWebsite() {
                   </p>
                 </div>
 
-                <div className="rounded-[1.75rem] border border-white/10 bg-neutral-900 p-6 md:col-span-2">
+                <div className="rounded-[1.75rem] border border-white/10 bg-neutral-900 p-6">
+                  <p className="text-sm text-white/50">AI Finance</p>
+                  <h4 className="mt-2 text-2xl font-semibold">FinAssist AI</h4>
+                  <p className="mt-4 text-sm leading-7 text-white/65">
+                    Smart financial guidance powered by AI to help users make
+                    confident, informed money decisions.
+                  </p>
+                  <a
+                    href="https://finassist-ai-sx1.caffeine.xyz/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-4 inline-flex items-center gap-1 text-xs text-cyan-300 transition hover:text-cyan-100"
+                  >
+                    Visit site →
+                  </a>
+                </div>
+
+                <div className="rounded-[1.75rem] border border-white/10 bg-neutral-900 p-6">
                   <p className="text-sm text-white/50">Studio Opportunity</p>
-                  <h4 className="mt-2 text-2xl font-semibold">
+                  <h4 className="mt-2 text-xl font-semibold">
                     What makes APR United valuable?
                   </h4>
                   <p className="mt-4 text-sm leading-8 text-white/65">
-                    Not just one product. A repeatable startup-building engine.
-                    That means stronger brand equity, diversified opportunity,
-                    and a bigger long-term story for investors, partners, and
-                    buyers.
+                    Not just one product. A repeatable startup-building engine
+                    with stronger brand equity and a bigger long-term story.
                   </p>
                 </div>
               </div>
